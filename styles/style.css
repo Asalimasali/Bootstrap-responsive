@@ -1,0 +1,97 @@
+/* font for 300px */
+@font-face {
+    font-family: p-Thin;
+    src: url(Poppins-Thin.ttf);
+}
+/* font for 400px */
+@font-face {
+    font-family: p-Regular;
+    src: url(Poppins-Regular.ttf);
+}
+/* font for 500px */
+@font-face {
+    font-family: p-Medium;
+    src: url(Poppins-Medium.ttf);
+}
+/* font for 600px */
+@font-face {
+    font-family: p-SemiBold ;
+    src: url(Poppins-SemiBold.ttf);
+}
+/* font for 700px */
+@font-face {
+    font-family: p-Bold;
+    src: url(Poppins-Bold.ttf);
+}
+/* font for 800px */
+@font-face {
+    font-family: p-ExtraBold;
+    src: url(Poppins-ExtraBold.ttf);
+}
+.p-Thin{
+    font-family: p-Thin;
+}
+.p-Regular{
+    font-family: p-Regular;
+}
+.p-Medium{
+    font-family: p-Medium;
+}
+.p-SemiBold{
+    font-family: p-SemiBold;
+}
+.p-Bold{
+    font-family: p-Bold;
+}
+.p-ExtraBold{
+    font-family: p-ExtraBold;
+}
+
+
+:root{
+    --secondary-color: #fa8305;
+    --black-7: #000;
+
+}
+.bg-color-box{
+    background-color: #1C140F;
+}
+.bg-gradiant{
+    background-color: #3B2A9F;
+}
+.primary-100{
+    color: #5141AA;
+}
+.bg-primary-100{
+    background-color: #5141AA;
+}
+.bg-secondary-color{
+    background-color: #FA8305;
+}
+.text-bg-secondary-color{
+    color: #FA8305;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.card-no-bg {
+    background-color: transparent ;
+    border: none ;
+}
+.no-border {
+    border-bottom: none !important;
+    border: none;
+}
+.no-hover-color:hover{
+    color: #FA8305;
+    background-color: #FA8305;
+}
+
+.pic-size{
+    width: 300px;
+    height: 200px;
+}
+.h-200{
+    height: 200px;
+}
