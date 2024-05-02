@@ -87,11 +87,93 @@ a{
     color: #FA8305;
     background-color: #FA8305;
 }
-
 .pic-size{
     width: 300px;
     height: 200px;
 }
 .h-200{
     height: 200px;
+}
+.hover:hover{
+    font-size: 17px;
+}
+.opacity:hover{
+
+    opacity: 0.5;
+}
+.no-bg{
+    background-color: #3B2A9F;
+}
+
+#unity{
+    position: relative;
+    width: 96px;
+    height: 30px;
+    /* top: 409px;
+    left: 649px; */
+    gap: 0px;
+    opacity: 0px;
+    bottom: 280px;
+    right: 100px;
+}
+#unreal{
+    position: relative;
+    width: 59px;
+    height: 64px;
+    /* top: 210px;
+    left: 1150px; */
+    gap: 0px;
+    opacity: 0px;
+    bottom: 440px;
+    left: 300px;
+}
+
+#cry{
+    position: relative;
+    width: 101px;
+    height: 99px;
+    /* top: 202px;
+    left: 828px; */
+    gap: 0px;
+    opacity: 0px;
+    bottom: 530px;
+    right: 10px;
+}
+
+.header_container_div{
+    display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+.logo{
+    font-family: sixthFont; color: white; font-size: 22px;
+}
+.header_navbar{
+    display: flex; align-items: center
+}
+.rectangle_container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -10px;
+}
+@media only screen and (max-width: 990px)  {
+    .res-990{
+        /* display: flex!important;
+        justify-content: end!important; */
+        position: absolute!important;
+        right: 0;
+    }
+    .res-justify-end{
+        justify-content: end!important;
+    }
+}
+@media only screen and (max-width: 480px)  {
+    .col-sm-6{
+        width: 50%;
+    }
+    .res-990{
+        position: relative!important;
+    }
+    
 }
